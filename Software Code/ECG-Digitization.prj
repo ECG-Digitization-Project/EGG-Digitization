@@ -1,0 +1,102 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="1948159204" file="/home/sganesh44/Documents/ECG-digitization/Desktop/ECG/Codes/APP MAIN/ECG-Digitization.prj" location="/home/sganesh44/Documents/ECG-digitization/Desktop/ECG/Codes/APP MAIN" name="ECG-Digitization" target="target.mlapps" target-name="Package App">
+    <param.appname>ECG-Digitization</param.appname>
+    <param.authnamewatermark />
+    <param.email />
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary>This application is for digitizing ECG paper records. Upon starting the application, the steps in the readme file have to be followed.</param.summary>
+    <param.description />
+    <param.screenshot>/tmp/tpe9eb1c05_9836_4289_b0d4_700f9db535de.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>/home/sganesh44/Documents/App</param.output>
+    <param.guid>7d186a1c-be3d-46a1-b2fb-26dd240c2f23</param.guid>
+    <unset>
+      <param.authnamewatermark />
+      <param.email />
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}/ECGuide1.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}/P_1.mat</file>
+      <file>${PROJECT_ROOT}/P_2.mat</file>
+      <file>${PROJECT_ROOT}/P_3.mat</file>
+      <file>${PROJECT_ROOT}/P_4.mat</file>
+      <file>${PROJECT_ROOT}/calibratingapp.m</file>
+      <file>${PROJECT_ROOT}/calibration.m</file>
+      <file>${PROJECT_ROOT}/characteremoval.m</file>
+      <file>${PROJECT_ROOT}/checkcolor.m</file>
+      <file>${PROJECT_ROOT}/contour_1.mat</file>
+      <file>${PROJECT_ROOT}/contour_2.mat</file>
+      <file>${PROJECT_ROOT}/contour_3.mat</file>
+      <file>${PROJECT_ROOT}/contour_4.mat</file>
+      <file>${PROJECT_ROOT}/dir2.m</file>
+      <file>${PROJECT_ROOT}/evaluateOCRTraining1.m</file>
+      <file>${PROJECT_ROOT}/finalresults.m</file>
+      <file>${PROJECT_ROOT}/gridthreshold.m</file>
+      <file>${PROJECT_ROOT}/linearfiltering.m</file>
+      <file>${PROJECT_ROOT}/markingregions.m</file>
+      <file>${PROJECT_ROOT}/readfiles.m</file>
+      <file>${PROJECT_ROOT}/roi3.mat</file>
+      <file>${PROJECT_ROOT}/roi4.mat</file>
+      <file>${PROJECT_ROOT}/segmentingimages.m</file>
+      <file>${PROJECT_ROOT}/title.jpg</file>
+      <file>${PROJECT_ROOT}/tracingvoltage.m</file>
+      <file>${PROJECT_ROOT}/xi_1.mat</file>
+      <file>${PROJECT_ROOT}/xi_2.mat</file>
+      <file>${PROJECT_ROOT}/xi_3.mat</file>
+      <file>${PROJECT_ROOT}/xi_4.mat</file>
+      <file>${PROJECT_ROOT}/yi_1.mat</file>
+      <file>${PROJECT_ROOT}/yi_2.mat</file>
+      <file>${PROJECT_ROOT}/yi_3.mat</file>
+      <file>${PROJECT_ROOT}/yi_4.mat</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="/home/sganesh44/Documents" name="App" optional="false">/home/sganesh44/Documents/App</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>/home/sganesh44/Desktop/MATLAB</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>true</unix>
+      <mac>false</mac>
+      <windows>false</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>true</linux>
+      <solaris>false</solaris>
+      <osver>5.0.0-32-generic</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>glnxa64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
